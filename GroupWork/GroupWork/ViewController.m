@@ -18,8 +18,12 @@
     [super viewDidLoad];
     NSLog(@"项目初建立");
     [self setupUI];
+    [self loadData];
 }
 
+- (void)loadData {
+    
+}
 #pragma mark - 设置界面
 - (void)setupUI {
     
