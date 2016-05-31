@@ -19,6 +19,7 @@
     NSLog(@"项目初建立");
     [self setupUI];
     [self loadData];
+    NSLog(@"杨帆");
 }
 
 - (void)loadData {
