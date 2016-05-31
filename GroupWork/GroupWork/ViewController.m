@@ -17,8 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"项目初建立");
+    [self setupUI];
 }
 
+#pragma mark - 设置界面
+- (void)setupUI {
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
