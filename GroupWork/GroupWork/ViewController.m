@@ -31,15 +31,22 @@
     self.view.backgroundColor = [UIColor blackColor];
     
     UIButton *button =[[UIButton alloc] init];
-    button.center = self.view.center;
+    
     [button setTitle:@"Click" forState:UIControlStateNormal];
     button.titleLabel.font = [UIFont systemFontOfSize:20];
     [button setTitleColor:[UIColor cz_colorWithHex:0x5A4534] forState:UIControlStateNormal];
+    [button sizeToFit];
+    button.center = self.view.center;
     
     [self.view addSubview:button];
     
+    [button addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     
-    
+}
+
+- (void)click:(UIButton *)button {
+    //发光
+    [button setShowsTouchWhenHighlighted:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
