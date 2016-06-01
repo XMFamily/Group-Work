@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CZAdditions.h"
 
 @interface ViewController ()
 
@@ -27,6 +28,17 @@
 }
 #pragma mark - 设置界面
 - (void)setupUI {
+    self.view.backgroundColor = [UIColor blackColor];
+    
+    UIButton *button =[[UIButton alloc] init];
+    button.center = self.view.center;
+    [button setTitle:@"Click" forState:UIControlStateNormal];
+    button.titleLabel.font = [UIFont systemFontOfSize:20];
+    [button setTitleColor:[UIColor cz_colorWithHex:0x5A4534] forState:UIControlStateNormal];
+    
+    [self.view addSubview:button];
+    
+    
     
 }
 - (void)didReceiveMemoryWarning {
