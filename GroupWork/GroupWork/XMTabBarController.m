@@ -26,8 +26,11 @@
     
     NSMutableArray *arrayM = [NSMutableArray array];
     
+    [arrayM addObject:[self viewControllerWithClsName:@"ZFBHomeViewController" titleName:@"支付宝" imageName:@"TabBar_HomeBar"]];
+    [arrayM addObject:[self viewControllerWithClsName:@"ZFBBusinessViewController" titleName:@"口碑" imageName:@"TabBar_Businesses"]];
+    [arrayM addObject:[self viewControllerWithClsName:@"ZFBFriendsViewController" titleName:@"朋友" imageName:@"TabBar_Friends"]];
     [arrayM addObject:[self viewControllerWithClsName:@"ViewController" titleName:@"我的" imageName:@"TabBar_Assets"]];
-    
+
     
     self.viewControllers = arrayM;
 }
