@@ -21,6 +21,15 @@
     [self setupUI];
     [self loadData];
     NSLog(@"徐明明");
+    
+    NSLog(@"我是许仙，我在找白娘子");
+    NSLog(@"我是许仙，我在找白娘子");
+    NSLog(@"我是许仙，我在找白娘子");
+    NSLog(@"我是许仙，我在找白娘子");
+    NSLog(@"我是许仙，我在找白娘子");
+    NSLog(@"我是许仙，我在找白娘子");
+    NSLog(@"我是许仙，我在找白娘子");
+    NSLog(@"我是许仙，我在找白娘子");
 }
 
 - (void)loadData {
