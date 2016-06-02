@@ -30,6 +30,7 @@
 		04A0FB1B1CFFF43D00C3895C /* ZFBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FB1A1CFFF43D00C3895C /* ZFBHomeViewController.m */; };
 		04A0FB1F1CFFF47300C3895C /* ZFBBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FB1E1CFFF47300C3895C /* ZFBBusinessViewController.m */; };
 		04A0FB231CFFF49900C3895C /* ZFBFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FB221CFFF49900C3895C /* ZFBFriendsViewController.m */; };
+		2D1086D2AAC7029E56B317ED /* Pods_GroupWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554EC318B19F7979E2375FDE /* Pods_GroupWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,9 @@
 		04A0FB1E1CFFF47300C3895C /* ZFBBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBBusinessViewController.m; sourceTree = "<group>"; };
 		04A0FB211CFFF49900C3895C /* ZFBFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFriendsViewController.h; sourceTree = "<group>"; };
 		04A0FB221CFFF49900C3895C /* ZFBFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFriendsViewController.m; sourceTree = "<group>"; };
+		4BB2685BD0F7BB5075BB160F /* Pods-GroupWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroupWork/Pods-GroupWork.release.xcconfig"; sourceTree = "<group>"; };
+		554EC318B19F7979E2375FDE /* Pods_GroupWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A2F8B1BBAF77513E1C8DF9 /* Pods-GroupWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroupWork/Pods-GroupWork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1086D2AAC7029E56B317ED /* Pods_GroupWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +102,8 @@
 			children = (
 				049F0E081CFDB51B007E8A64 /* GroupWork */,
 				049F0E071CFDB51B007E8A64 /* Products */,
+				9AD24A847629333AA4817D50 /* Pods */,
+				28430CF83C885AF88BFB8AB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,6 +239,23 @@
 			name = "Friends(朋友)";
 			sourceTree = "<group>";
 		};
+		28430CF83C885AF88BFB8AB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				554EC318B19F7979E2375FDE /* Pods_GroupWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AD24A847629333AA4817D50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9A2F8B1BBAF77513E1C8DF9 /* Pods-GroupWork.debug.xcconfig */,
+				4BB2685BD0F7BB5075BB160F /* Pods-GroupWork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 049F0E1D1CFDB51B007E8A64 /* Build configuration list for PBXNativeTarget "GroupWork" */;
 			buildPhases = (
+				43ABA1A8ABC92AFC6E6FE990 /* [CP] Check Pods Manifest.lock */,
 				049F0E021CFDB51B007E8A64 /* Sources */,
 				049F0E031CFDB51B007E8A64 /* Frameworks */,
 				049F0E041CFDB51B007E8A64 /* Resources */,
+				13315F18FEBEC3633E2E5E9E /* [CP] Embed Pods Frameworks */,
+				DDFAC2DB79FBCD959AA4A04D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,6 +322,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13315F18FEBEC3633E2E5E9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupWork/Pods-GroupWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43ABA1A8ABC92AFC6E6FE990 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFAC2DB79FBCD959AA4A04D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupWork/Pods-GroupWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		049F0E021CFDB51B007E8A64 /* Sources */ = {
@@ -423,6 +498,7 @@
 		};
 		049F0E1E1CFDB51B007E8A64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A2F8B1BBAF77513E1C8DF9 /* Pods-GroupWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GroupWork/Info.plist;
@@ -434,6 +510,7 @@
 		};
 		049F0E1F1CFDB51B007E8A64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB2685BD0F7BB5075BB160F /* Pods-GroupWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GroupWork/Info.plist;

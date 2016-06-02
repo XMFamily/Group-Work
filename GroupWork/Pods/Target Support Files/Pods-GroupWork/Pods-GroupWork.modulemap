@@ -1,0 +1,6 @@
+framework module Pods_GroupWork {
+  umbrella header "Pods-GroupWork-umbrella.h"
+
+  export *
+  module * { export * }
+}
