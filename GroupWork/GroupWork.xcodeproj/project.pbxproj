@@ -27,6 +27,9 @@
 		049F0F141CFEC6FA007E8A64 /* CZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F0F071CFEC6FA007E8A64 /* CZBaseViewController.m */; };
 		04A0FAF21CFFE9FF00C3895C /* XMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FAF11CFFE9FF00C3895C /* XMTabBarController.m */; };
 		04A0FB161CFFF1B400C3895C /* XMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FB151CFFF1B400C3895C /* XMNavigationController.m */; };
+		04A0FB1B1CFFF43D00C3895C /* ZFBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FB1A1CFFF43D00C3895C /* ZFBHomeViewController.m */; };
+		04A0FB1F1CFFF47300C3895C /* ZFBBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FB1E1CFFF47300C3895C /* ZFBBusinessViewController.m */; };
+		04A0FB231CFFF49900C3895C /* ZFBFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FB221CFFF49900C3895C /* ZFBFriendsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +73,12 @@
 		04A0FAF11CFFE9FF00C3895C /* XMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTabBarController.m; sourceTree = "<group>"; };
 		04A0FB141CFFF1B400C3895C /* XMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMNavigationController.h; sourceTree = "<group>"; };
 		04A0FB151CFFF1B400C3895C /* XMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMNavigationController.m; sourceTree = "<group>"; };
+		04A0FB191CFFF43D00C3895C /* ZFBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBHomeViewController.h; sourceTree = "<group>"; };
+		04A0FB1A1CFFF43D00C3895C /* ZFBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBHomeViewController.m; sourceTree = "<group>"; };
+		04A0FB1D1CFFF47300C3895C /* ZFBBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBBusinessViewController.h; sourceTree = "<group>"; };
+		04A0FB1E1CFFF47300C3895C /* ZFBBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBBusinessViewController.m; sourceTree = "<group>"; };
+		04A0FB211CFFF49900C3895C /* ZFBFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBFriendsViewController.h; sourceTree = "<group>"; };
+		04A0FB221CFFF49900C3895C /* ZFBFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFriendsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +114,11 @@
 				049F0EEA1CFEC6FA007E8A64 /* Tools */,
 				049F0E0C1CFDB51B007E8A64 /* AppDelegate.h */,
 				049F0E0D1CFDB51B007E8A64 /* AppDelegate.m */,
-				049F0E0F1CFDB51B007E8A64 /* ViewController.h */,
-				049F0E101CFDB51B007E8A64 /* ViewController.m */,
-				04A0FAF01CFFE9FF00C3895C /* XMTabBarController.h */,
-				04A0FAF11CFFE9FF00C3895C /* XMTabBarController.m */,
-				04A0FB141CFFF1B400C3895C /* XMNavigationController.h */,
-				04A0FB151CFFF1B400C3895C /* XMNavigationController.m */,
+				04A0FB241CFFF49C00C3895C /* Friends(朋友) */,
+				04A0FB201CFFF47500C3895C /* Business(商家口碑) */,
+				04A0FB1C1CFFF44300C3895C /* Home(支付宝) */,
+				04A0FB171CFFF3C700C3895C /* Mine(我的) */,
+				04A0FB181CFFF3D900C3895C /* VC(控制器) */,
 				049F0E151CFDB51B007E8A64 /* Assets.xcassets */,
 				049F0E171CFDB51B007E8A64 /* LaunchScreen.storyboard */,
 				049F0E1A1CFDB51B007E8A64 /* Info.plist */,
@@ -175,6 +183,53 @@
 				049F0F071CFEC6FA007E8A64 /* CZBaseViewController.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		04A0FB171CFFF3C700C3895C /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				049F0E0F1CFDB51B007E8A64 /* ViewController.h */,
+				049F0E101CFDB51B007E8A64 /* ViewController.m */,
+			);
+			name = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		04A0FB181CFFF3D900C3895C /* VC(控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				04A0FAF01CFFE9FF00C3895C /* XMTabBarController.h */,
+				04A0FAF11CFFE9FF00C3895C /* XMTabBarController.m */,
+				04A0FB141CFFF1B400C3895C /* XMNavigationController.h */,
+				04A0FB151CFFF1B400C3895C /* XMNavigationController.m */,
+			);
+			name = "VC(控制器)";
+			sourceTree = "<group>";
+		};
+		04A0FB1C1CFFF44300C3895C /* Home(支付宝) */ = {
+			isa = PBXGroup;
+			children = (
+				04A0FB191CFFF43D00C3895C /* ZFBHomeViewController.h */,
+				04A0FB1A1CFFF43D00C3895C /* ZFBHomeViewController.m */,
+			);
+			name = "Home(支付宝)";
+			sourceTree = "<group>";
+		};
+		04A0FB201CFFF47500C3895C /* Business(商家口碑) */ = {
+			isa = PBXGroup;
+			children = (
+				04A0FB1D1CFFF47300C3895C /* ZFBBusinessViewController.h */,
+				04A0FB1E1CFFF47300C3895C /* ZFBBusinessViewController.m */,
+			);
+			name = "Business(商家口碑)";
+			sourceTree = "<group>";
+		};
+		04A0FB241CFFF49C00C3895C /* Friends(朋友) */ = {
+			isa = PBXGroup;
+			children = (
+				04A0FB211CFFF49900C3895C /* ZFBFriendsViewController.h */,
+				04A0FB221CFFF49900C3895C /* ZFBFriendsViewController.m */,
+			);
+			name = "Friends(朋友)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A0FB1B1CFFF43D00C3895C /* ZFBHomeViewController.m in Sources */,
 				049F0F111CFEC6FA007E8A64 /* UIViewController+CZAddition.m in Sources */,
 				049F0F091CFEC6FA007E8A64 /* NSArray+Log.m in Sources */,
 				049F0E111CFDB51B007E8A64 /* ViewController.m in Sources */,
+				04A0FB231CFFF49900C3895C /* ZFBFriendsViewController.m in Sources */,
 				04A0FAF21CFFE9FF00C3895C /* XMTabBarController.m in Sources */,
 				049F0F121CFEC6FA007E8A64 /* CZBaseControl.m in Sources */,
 				049F0F0F1CFEC6FA007E8A64 /* UIScreen+CZAddition.m in Sources */,
@@ -264,6 +321,7 @@
 				049F0F081CFEC6FA007E8A64 /* NSArray+CZAddition.m in Sources */,
 				04A0FB161CFFF1B400C3895C /* XMNavigationController.m in Sources */,
 				049F0F0D1CFEC6FA007E8A64 /* UIColor+CZAddition.m in Sources */,
+				04A0FB1F1CFFF47300C3895C /* ZFBBusinessViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
