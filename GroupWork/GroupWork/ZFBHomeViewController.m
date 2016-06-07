@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self  setupUI];
 }
 
 #pragma mark - 设置界面
