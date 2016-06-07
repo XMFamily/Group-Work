@@ -16,7 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+}
+
+#pragma mark - 设置界面
+- (void)setupUI {
     self.view.backgroundColor = [UIColor magentaColor];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

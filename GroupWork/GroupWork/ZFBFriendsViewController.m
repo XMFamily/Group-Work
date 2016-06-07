@@ -8,6 +8,7 @@
 
 #import "ZFBFriendsViewController.h"
 
+
 @interface ZFBFriendsViewController ()
 
 @end
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor cyanColor];
+    
 }
 
 - (void)didReceiveMemoryWarning {
