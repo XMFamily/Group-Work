@@ -1,23 +1,28 @@
 //
-//  ZFBFriendsViewController.m
+//  ZFBHomeViewController.m
 //  GroupWork
 //
 //  Created by 徐明明 on 16/6/2.
 //  Copyright © 2016年 mac. All rights reserved.
 //
 
-#import "ZFBFriendsViewController.h"
+#import "ZFBHomeViewController.h"
 
-
-@interface ZFBFriendsViewController ()
+@interface ZFBHomeViewController ()
 
 @end
 
-@implementation ZFBFriendsViewController
+@implementation ZFBHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor cyanColor];
+    
+}
+
+#pragma mark - 设置界面
+- (void)setupUI {
+    self.view.backgroundColor = [UIColor magentaColor];
+    
     
 }
 
