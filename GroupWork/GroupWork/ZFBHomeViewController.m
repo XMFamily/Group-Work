@@ -8,6 +8,7 @@
 
 #import "ZFBHomeViewController.h"
 #import <Masonry/Masonry.h>
+#import "ZFBBussinessListView.h"
 @interface ZFBHomeViewController ()
 
 @end
@@ -29,8 +30,8 @@
 #pragma mark - 大块视图搭建
 - (void)setUpUI{
     //创建上部视图
-    UIView *topView = [[UIView alloc]init];
-    topView.backgroundColor = [UIColor redColor];
+    ZFBBussinessListView *topView = [[ZFBBussinessListView alloc]init];
+    topView.backgroundColor = [UIColor blackColor];
     
     [self.view addSubview:topView];
     

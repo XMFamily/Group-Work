@@ -31,6 +31,7 @@
 		04A0FB1F1CFFF47300C3895C /* ZFBBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FB1E1CFFF47300C3895C /* ZFBBusinessViewController.m */; };
 		04A0FB231CFFF49900C3895C /* ZFBFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0FB221CFFF49900C3895C /* ZFBFriendsViewController.m */; };
 		2D1086D2AAC7029E56B317ED /* Pods_GroupWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554EC318B19F7979E2375FDE /* Pods_GroupWork.framework */; };
+		6C33AD8B1D06E35400FFFA24 /* ZFBBussinessListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C33AD8A1D06E35400FFFA24 /* ZFBBussinessListView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,8 @@
 		04A0FB221CFFF49900C3895C /* ZFBFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBFriendsViewController.m; sourceTree = "<group>"; };
 		4BB2685BD0F7BB5075BB160F /* Pods-GroupWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroupWork/Pods-GroupWork.release.xcconfig"; sourceTree = "<group>"; };
 		554EC318B19F7979E2375FDE /* Pods_GroupWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C33AD891D06E35400FFFA24 /* ZFBBussinessListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBBussinessListView.h; sourceTree = "<group>"; };
+		6C33AD8A1D06E35400FFFA24 /* ZFBBussinessListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBBussinessListView.m; sourceTree = "<group>"; };
 		E9A2F8B1BBAF77513E1C8DF9 /* Pods-GroupWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroupWork/Pods-GroupWork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,6 +218,7 @@
 		04A0FB1C1CFFF44300C3895C /* Home(支付宝) */ = {
 			isa = PBXGroup;
 			children = (
+				6C33AD881D06E31500FFFA24 /* topview */,
 				04A0FB191CFFF43D00C3895C /* ZFBHomeViewController.h */,
 				04A0FB1A1CFFF43D00C3895C /* ZFBHomeViewController.m */,
 			);
@@ -245,6 +249,15 @@
 				554EC318B19F7979E2375FDE /* Pods_GroupWork.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C33AD881D06E31500FFFA24 /* topview */ = {
+			isa = PBXGroup;
+			children = (
+				6C33AD891D06E35400FFFA24 /* ZFBBussinessListView.h */,
+				6C33AD8A1D06E35400FFFA24 /* ZFBBussinessListView.m */,
+			);
+			name = topview;
 			sourceTree = "<group>";
 		};
 		9AD24A847629333AA4817D50 /* Pods */ = {
@@ -285,6 +298,7 @@
 		049F0DFE1CFDB51B007E8A64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZFB;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = mac;
 				TargetAttributes = {
@@ -379,6 +393,7 @@
 				04A0FB1B1CFFF43D00C3895C /* ZFBHomeViewController.m in Sources */,
 				049F0F111CFEC6FA007E8A64 /* UIViewController+CZAddition.m in Sources */,
 				049F0F091CFEC6FA007E8A64 /* NSArray+Log.m in Sources */,
+				6C33AD8B1D06E35400FFFA24 /* ZFBBussinessListView.m in Sources */,
 				049F0E111CFDB51B007E8A64 /* ViewController.m in Sources */,
 				04A0FB231CFFF49900C3895C /* ZFBFriendsViewController.m in Sources */,
 				04A0FAF21CFFE9FF00C3895C /* XMTabBarController.m in Sources */,
